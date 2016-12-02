@@ -1,0 +1,107 @@
+.jumbotron-fluid{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+body{
+  background-color: rgb(212, 239, 223);
+}
+#main-title{
+  font-size: 80px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+
+#sub-title{
+  text-align: center;
+  font-size: 25px;
+}
+
+.jumbotron{
+  background-color: white;
+}
+#title-divider{
+ margin-top: -10px;
+ margin-bottom:10px;
+ height:1px;
+ width:100%;
+ border-top:5px solid;
+ border-color: green;
+}
+
+#title-info{
+  padding-top: 50px;
+}
+
+.navbar{
+  background-color: rgb(20,90,50);
+  color: black;
+}
+
+.main-nav{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dropdown-menu{
+  background-color: rgb(82, 190, 128);
+}
+
+.display-1{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.dropdown-menu .divider{
+  background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+/*MAIN MENU BOX ! */
+.navbar-default{
+  border-color: rgb(20,90,50);
+  box-shadow: 10px 10px 5px #888888;
+}
+
+/** LOGO QUERY
+
+@media (max-width: 768px) {
+    img{
+        width: 300px;
+    }
+}
+*/
+
+/*NAVBAR ALIGNMENT MIDDLE RESPONSIVE*/
+
+@media(min-width:0px){
+  .display-1{
+    font-size:30px;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar{
+    padding-left: 190px;
+  }
+}
+
+@media (min-width: 922px){
+  .navbar{
+    padding-left: 280px;
+  }
+}
+
+@media (min-width: 1200px){
+  .navbar{
+    padding-left: 500px;
+  }
+}
+
+/*/*NAVBAR ALIGNMENT MIDDLE RESPONSIVE ENDING*/
