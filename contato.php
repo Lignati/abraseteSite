@@ -93,7 +93,7 @@
                 <button type="submit" class="btn btn-primary btn-block cnt-button"><span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span></button>
               </div>
             </form>
-<!--
+
 <?php
 /* script php para enviar o email :)*/
   $nome = $_POST['nome'];
@@ -102,7 +102,7 @@
   $telefone = $_POST['telefone'];
   $mensagem= $_POST['mensagem'];
   $corpoEmail ="Mensagem de: ".$email."\r\n"."Telefone:".$telefone."\r\n"."Mensagem:\r\n". $mensagem ;
-  if(isset($nome)&&isset($email)&& isset(assunto)&& isset(mensagem)){
+  if(isset($nome)&&isset($email)&& isset($assunto)&& isset($mensagem)){
     $to = "bernardonlignati@gmail.com";
     $assuntoFinal = "Contato ABRASETE ->".$assunto;
     mail($to,$assuntoFinal,$corpoEmail);
@@ -112,19 +112,19 @@
       echo "nome obrigat&oacute;io<br/>";
     }
     if(!isset($email)){
-      echo "email obrigat&oacute;io<br/>"
+      echo "email obrigat&oacute;io<br/>";
     }
     if(!isset($assunto)){
-      echo "assunto obrigat&oacute;io<br/>"
+      echo "assunto obrigat&oacute;io<br/>";
     }
     if(!isset($assunto)){
-      echo "uma mensagem &eacute; obrigat&oacute;io<br/>"
+      echo "uma mensagem &eacute; obrigat&oacute;io<br/>";
     }
 
   }
 
 ?>
-!-->
+
 
           </div>
         </div>
