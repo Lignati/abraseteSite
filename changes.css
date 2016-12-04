@@ -1,0 +1,357 @@
+.jumbotron-fluid{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+body{
+  background-color: rgb(212, 239, 223);
+}
+#main-title{
+  font-size: 80px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+
+#sub-title{
+  text-align: center;
+  font-size: 25px;
+}
+
+.jumbotron{
+  background-color: white;
+}
+#title-divider{
+ margin-top: -10px;
+ margin-bottom:10px;
+ height:1px;
+ width:100%;
+ border-top:5px solid;
+ border-color: green;
+}
+
+#title-info{
+  padding-top: 50px;
+}
+
+.navbar{
+  background-color: rgb(20,90,50);
+  color: black;
+}
+
+.main-nav{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dropdown-menu{
+  background-color: rgb(82, 190, 128);
+}
+
+.display-1{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.dropdown-menu .divider{
+  background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+/*MAIN MENU BOX ! */
+.navbar-default{
+  border-color: rgb(20,90,50);
+  border-radius: 0px;
+  /*box-shadow: 0px 50px 100px #209050;*/
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+/** LOGO QUERY
+
+@media (max-width: 768px) {
+    img{
+        width: 300px;
+    }
+}
+*/
+
+/*NAVBAR ALIGNMENT MIDDLE RESPONSIVE*/
+
+@media(min-width:0px){
+  .display-1{
+    font-size:30px;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar{
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 922px){
+  .navbar{
+    padding-left: 250px;
+  }
+}
+
+@media (min-width: 1200px){
+  .navbar{
+    padding-left: 450px;
+  }
+}
+
+/*/*NAVBAR ALIGNMENT MIDDLE RESPONSIVE ENDING*/
+
+
+
+
+
+.col-form-label{
+  font-size:25px;
+}
+
+.cnt-button{
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border-color: brown;
+}
+
+#contat-display{
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top:40px;
+}
+#social-display{
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top:40px;
+}
+
+.social-label{
+
+
+  font-size:18pt;
+  margin-top:15px;
+
+
+}
+
+.form-control{
+  border-color: brown;
+}
+.btn-primary:hover{
+  background-color: rgba(0,0,0, 0.2);
+  border-color: brown;
+  color: black;
+}
+
+.btn-primary:active:focus{
+  background-color: transparent;
+  border-color: brown;
+}
+
+.form1{
+  border-bottom: solid;
+  border-spacing: 5px;
+  border-width: 1px;
+  border-bottom-color: brown;
+}
+
+
+
+
+/* INDEX PAGE CSS*/
+
+#missão{
+  font-size: 60px;
+  text-align: center;
+  color: black;
+}
+
+#missão-sub{
+  border-left: solid;
+  border-width: 1px;
+  border-left-color: white;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  color: black;
+}
+
+
+.glyphicon{
+  color: black;
+}
+
+#visão-sub{
+  font-size: 30px;
+  text-align: left;
+  border-left: solid;
+  border-width: 1px;
+  border-left-color: white;
+  padding-left: 10px;
+  color: black;
+}
+
+
+
+.clean{
+  background-image: url(back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+
+
+
+.separator{
+  background-color: rgb(14, 63, 35);
+  min-height: 30px;
+}
+
+.atributos{
+  padding-top: 70px;
+}
+
+@media(max-width:1300px){
+  .clean{
+    height: auto;
+  }
+}
+
+.init{
+  background-image: url(init3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.valorpar{
+  font-size: 40px;
+  text-align: right;
+  padding-right: 10px;
+  color: black;
+  border-right: solid;
+  border-right-width: 2px;
+  border-right-color: white;
+}
+
+.valorimpar{
+  font-size: 40px;
+  text-align: left;
+  padding-left: 10px;
+  color:black;
+  border-left: solid;
+  border-left-width: 2px;
+  border-left-color: white;
+}
+
+.white{
+  color:white;
+}
+
+
+#valores{
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+
+
+
+@media(max-width:768px){
+  #valores{
+    font-size: 30px;
+  }
+  .valorimpar{
+    font-size: 25px;
+  }
+ .valorpar{
+      font-size: 25px;
+    }
+
+  #missão{
+    font-size: 30px;
+  }
+  #missão-sub{
+    font-size: 30px;
+  }
+  #visão-sub{
+    font-size: 30px;
+  }
+
+}
+
+
+
+/* SOBRE COMPONENTS*/
+
+.about{
+  background-image: url(back1.jpg);
+  background-size: cover;
+}
+
+.main-title-about{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: brown;
+}
+
+.main-title-about-02{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: brown;
+}
+
+.main-title-about-sub{
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+}
+
+@media(max-width:768px){
+  .main-title-about-sub{
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+.with-divisor{
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: brown;
+}
+
+#UCA  {
+   text-decoration: none !important;
+   color: black;
+}
+
+#UCA:hover{
+  color: grey;
+}
+
+.contato-label{
+    font-size:34px;
+
+}
