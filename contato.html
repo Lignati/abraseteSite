@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/changes.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -39,28 +40,63 @@
          <div yclass="navbar-collapse collapse  ">
            <ul class="nav navbar-nav">
              <li><a href="index.html">Home</a></li>
-             <li class="dropdown"><a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Associe-se</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Por que?</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Ficha de inscrição</a></li>
-                  </ul>
-             </li>
-             <li class="dropdown"><a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A ABRASETE</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Presidente</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Vice-Presidente</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Missão</a></li>
-                  </ul>
-             </li>
-                <li class="active"><a class="activate" href="#">Contato</a></li>
-                <li><a class="a-color" href="#">Notícias</a></li>
+             <li><a class="a-color" href="sobre.html">A ABRASETE</a></li>
+             <li><a class="a-color" href="parceiros.html">Parceiros</a></li>
+              <li><a class="a-color" href="parceiros.html">Seja parceiro</a></li>
+            <li class="active"><a href="contato.html">Contato</a></li>
            </ul>
          </div>
        </div>
      </nav>
     </div>
+    <!-- START OF THE PAGE CONTENT-->
+    <div class="container fluid">
+      <div class="row">
+        <div class="col-lg-12 col1">
+          <h1 class="display-1" id="contat-display">
+            Deixe sua mensagem !
+          </h1>
+          <div class="col-lg-7 col-lg-offset-3">
+             <form>
+               <div class="form-group row form1">
+                <label class="col-sm-3 col-form-label">Endereço</label>
+                <div class="col-sm-9">
+                  <input class="form-control" id="inputEmail3"  placeholder="Ex:.Rua Iguaba Grande, n. 167">
+                </div>
+              </div>
+               <div class="form-group row form1">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email"  required="required">
+                </div>
+              </div>
+              <div class="form-group row form1">
+               <label  class="col-sm-2 col-form-label">Assunto</label>
+               <div class="col-sm-10">
+                 <input  class="form-control" id="inputEmail3" placeholder="Do que se trata ?" required="required">
+               </div>
+             </div>
+             <div class="form-group row form1">
+              <label for="inputEmail3" class="col-sm-2 col-form-label" >Telefone</label>
+              <div class="col-sm-10">
+                <input type="tel" class="form-control" id="inputEmail3" placeholder="(DDD) 92132-7590">
+              </div>
+            </div>
+             <div class="form-group row form1">
+               <div class="col-sm-12">
+                 <textarea class="form-control" type="textarea" id="message" placeholder="Deixe aqui sua mensagem" maxlength="600" rows="9" required="required"></textarea>
+               </div>
+             </div>
+             <div class="form-group row">
+                <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary btn-block cnt-button"><span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>
