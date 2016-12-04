@@ -129,6 +129,20 @@ body{
   margin-bottom: 40px;
   margin-top:40px;
 }
+#social-display{
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top:40px;
+}
+
+.social-label{
+
+
+  font-size:18pt;
+  margin-top:15px;
+
+
+}
 
 .form-control{
   border-color: brown;
@@ -335,4 +349,9 @@ body{
 
 #UCA:hover{
   color: grey;
+}
+
+.contato-label{
+    font-size:34px;
+
 }
