@@ -118,7 +118,7 @@
       echo "assunto obrigat&oacute;io<br/>";
     }
     if(!isset($assunto)){
-      echo "uma mensagem &eacute; obrigat&oacute;io<br/>";
+      echo "uma mensagem &eacute; obrigat&oacute;ia<br/>";
     }
 
   }
