@@ -93,7 +93,7 @@
                 <button type="submit" class="btn btn-primary btn-block cnt-button"><span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span></button>
               </div>
             </form>
-
+<!--
 <?php
 /* script php para enviar o email :)*/
   $nome = $_POST['nome'];
@@ -109,7 +109,7 @@
     mail($to,$assuntoFinal,$corpoEmail);
   }
 ?>
-
+!-->
 
           </div>
         </div>
@@ -120,20 +120,20 @@
               CONTATO E REDES SOCIAS
               </h1>
                 <div class="row">
-                <div class="col-sm-offset-3">
-                     <span class="glyphicon glyphicon-phone-alt"></span>
+                <div class="col-xs-offset-4">
+                     <span class="glyphicon glyphicon-phone-alt" style = "font-size:24px;"></span>
                      <label class="label-succes social-label">(51) 3228 - 1602</label>
                   </div>
-                  <div class="col-sm-offset-3">
+                  <div class="col-xs-offset-4">
                      <i class="fa fa-whatsapp" style="font-size:24px;color:darkgreen"></i>
                      <label class="label-succes social-label" >(51) 99233 - 3989</label>
                   </div>
-                  <a href ="https://www.facebook.com/Abrasete-1645403899091923/"><div class="col-sm-offset-3">
+                  <a href ="https://www.facebook.com/Abrasete-1645403899091923/"><div class="col-xs-offset-4">
                      <i class="fa fa-facebook" style="font-size:24px;color:blue"></i>
                      <label class="label-succes social-label" >Visite a Nossa Pagina!</label>
                   </div></a>
-                  <a href ="https://www.instagram.com/abrasete/"><div class="col-sm-offset-3">
-                     <i class="fa fa-instagram" style="font-size:24px"></i>
+                  <a href ="https://www.instagram.com/abrasete/"><div class="col-xs-offset-5">
+                     <i class="fa fa-instagram" style="font-size:24px;color:black;"></i>
                      <label class="label-succes social-label" >@abrasete</label>
                   </div></a>
                
@@ -147,7 +147,6 @@
           </div>
         </div>
     </div>
-    <!-- start of the right side off the page !-->
 
 
   </body>
