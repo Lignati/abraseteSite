@@ -133,6 +133,7 @@ body{
   font-size: 30px;
   margin-bottom: 40px;
   margin-top:40px;
+  margin-left:10px;
 }
 
 .social-label{
@@ -303,8 +304,24 @@ body{
   background-size: cover;
 }
 
+.join-us{
+  background-image:url(back1.jpg);
+  background-size:cover;
+
+
+}
+
 .main-title-about{
   font-size: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: brown;
+}
+.main-title-join-us{
+  font-size: 30px;
   color: black;
   text-align: center;
   padding-top: 50px;
