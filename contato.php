@@ -104,25 +104,10 @@
   $corpoEmail ="Mensagem de: ".$email."\r\n"."Telefone:".$telefone."\r\n"."Mensagem:\r\n". $mensagem ;
   if(isset($nome)&&isset($email)&& isset($assunto)&& isset($mensagem)){
     $to = "bernardonlignati@gmail.com";
+    echo "envoiou";
     $assuntoFinal = "Contato ABRASETE ->".$assunto;
     mail($to,$assuntoFinal,$corpoEmail);
   }
-  else{ 
-    if(!isset($nome)){
-      echo "nome obrigat&oacute;io<br/>";
-    }
-    if(!isset($email)){
-      echo "email obrigat&oacute;io<br/>";
-    }
-    if(!isset($assunto)){
-      echo "assunto obrigat&oacute;io<br/>";
-    }
-    if(!isset($assunto)){
-      echo "uma mensagem &eacute; obrigat&oacute;ia<br/>";
-    }
-
-  }
-
 ?>
 
 
