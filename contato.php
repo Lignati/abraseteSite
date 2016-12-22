@@ -43,6 +43,7 @@
            <ul class="nav navbar-nav">
              <li><a href="index.html">Home</a></li>
              <li><a class="a-color" href="sobre.html">A ABRASETE</a></li>
+              <li><a class="a-color" href="inscrevase.html">Inscreva-se</a></li>
              <li><a class="a-color" href="parceiros.html">Parceiros</a></li>
               <li><a class="a-color" href="parceiros.html">Seja parceiro</a></li>
             <li class="active"><a href="contato.html">Contato</a></li>
