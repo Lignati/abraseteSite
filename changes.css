@@ -3,6 +3,9 @@
     margin-bottom: 0;
 }
 
+
+
+
 body{
   background-color: rgb(212, 239, 223);
 }
@@ -354,4 +357,12 @@ body{
 .contato-label{
     font-size:34px;
 
+}
+
+
+
+/* PARCERIROS PAGE*/
+
+#firstsection{
+    background-color: white;
 }

@@ -370,5 +370,72 @@ body{
 
 .contato-label{
     font-size:34px;
+}
 
+
+/* PARCEIROS PAGE !*/
+
+
+#firstsection{
+    background-image: url(back1.jpg);
+}
+
+
+
+#reconhecimento{
+  margin-top: 45px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+#parceiros-subtitle{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#parceiros-title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.thumbnail{
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+}
+
+.thumbnail:hover{
+  border: solid;
+  border-color: black;
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.thumbnail-icons{
+  font-size: 20px;
+  text-align: center;
+}
+
+#partner-list{
+  background-image: url(linegreenback.jpg);
+}
+
+.grey-background{
+  background-color: rgb(210, 255, 196);
+}
+.title-thumb{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+.title-thumb-sub{
+  color: inherit;
+  text-align: center;
+  font-size: 33px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
