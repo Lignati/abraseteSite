@@ -70,6 +70,7 @@ body{
   text-align: center;
   color: black;
 
+
 }
 
 /*MAIN MENU BOX ! */
@@ -213,7 +214,7 @@ body{
 
 #valores-sub{
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   color: black;
 }
