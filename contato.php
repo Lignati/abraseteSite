@@ -46,7 +46,7 @@
               <li><a class="a-color" href="inscrevase.html">Inscreva-se</a></li>
              <li><a class="a-color" href="parceiros.html">Parceiros</a></li>
               <li><a class="a-color" href="parceiros.html">Seja parceiro</a></li>
-            <li class="active"><a href="contato.html">Contato</a></li>
+            <li class="active"><a href="#">Contato</a></li>
            </ul>
          </div>
        </div>
@@ -104,7 +104,7 @@
   $mensagem= $_POST['mensagem'];
   $corpoEmail ="Mensagem de: ".$email."\r\n"."Telefone:".$telefone."\r\n"."Mensagem:\r\n". $mensagem ;
   if(isset($nome)&&isset($email)&& isset($assunto)&& isset($mensagem)){
-    $to = "bernardonlignati@gmail.com";
+    $to = "abrasetepoa@gmail.com";
     echo "envoiou";
     $assuntoFinal = "Contato ABRASETE ->".$assunto;
     mail($to,$assuntoFinal,$corpoEmail);
@@ -137,11 +137,11 @@
                      <i class="fa fa-instagram" style="font-size:24px;color:black;"></i>
                      <label class="label-succes social-label" >@abrasete</label>
                   </div></a>
-               
+
                  <h1 class="display-1" id="social-display" align="center">
                   Localiza&ccedil;&atilde;o
                 </h1>
-                <label class = "label-local col-sm-offset-3">Rua General C&acirc;mara, 355 conjunto 516</label>
+                <label class = "label-local col-sm-offset-3">Rua General C&acirc;mara, 355 conjunto 516 Centro Historico, Porto Alegre,  RS cep 90 010 230</label>
                 <img class = "img-responsive" src="local.png">
               </div>
             </div>
