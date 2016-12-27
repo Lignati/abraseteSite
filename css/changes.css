@@ -63,6 +63,15 @@ body{
   color: white;
 }
 
+
+.valores-subtitle{
+
+  font-size: 40px;
+  text-align: center;
+  color: black;
+
+}
+
 /*MAIN MENU BOX ! */
 .navbar-default{
   border-color: rgb(20,90,50);
@@ -202,7 +211,12 @@ body{
   color: black;
 }
 
-
+#valores-sub{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  color: black;
+}
 
 .clean{
   background-image: url(back2.png);
@@ -276,6 +290,9 @@ body{
   #valores{
     font-size: 30px;
   }
+  .valores-subtitle{
+    font-size: 30px;
+  }
   .valorimpar{
     font-size: 25px;
   }
@@ -290,6 +307,9 @@ body{
     font-size: 30px;
   }
   #visão-sub{
+    font-size: 30px;
+  }
+  #valores-sub{
     font-size: 30px;
   }
 
