@@ -94,7 +94,7 @@
                 <button type="submit" class="btn btn-primary btn-block cnt-button"><span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span></button>
               </div>
             </form>
-<!--
+
 <?php
 /* script php para enviar o email :)*/
   $nome = $_POST['nome'];
@@ -105,12 +105,12 @@
   $corpoEmail ="Mensagem de: ".$email."\r\n"."Telefone:".$telefone."\r\n"."Mensagem:\r\n". $mensagem ;
   if(isset($nome)&&isset($email)&& isset($assunto)&& isset($mensagem)){
     $to = "abrasetepoa@gmail.com";
-    echo "envoiou";
+    echo "Email enviado ! Obrigado por entrar em contato conosco.";
     $assuntoFinal = "Contato ABRASETE ->".$assunto;
     mail($to,$assuntoFinal,$corpoEmail);
   }
 ?>
-!-->
+
 
           </div>
         </div>
