@@ -454,30 +454,12 @@ body{
 
 
 
-/***
-
-MUDANÇAS NO INDEX.HTML
-
-*/
-
-
 #index-container{
     background-image: url(back2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/***
-
-MUDANÇAS NO INDEX.HTML
-
-*/
-
-/***
-
-MUDANÇAS NO PARCEIROS.HTML
-
-*/
 
 #parceiros-background{
     background-image: url(images/parterns_background.jpg);
@@ -513,8 +495,3 @@ MUDANÇAS NO PARCEIROS.HTML
 .parceiros-thumbnail{
   box-shadow: 0 10px 10px -2px grey;
 }
-  /***
-
-MUDANÇAS NO PARCEIROS.HTML
-
-*/
