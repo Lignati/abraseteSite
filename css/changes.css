@@ -219,13 +219,6 @@ body{
   color: black;
 }
 
-.clean{
-  background-image: url(back2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
 
 
 
@@ -238,11 +231,6 @@ body{
   padding-top: 70px;
 }
 
-@media(max-width:1300px){
-  .clean{
-    height: auto;
-  }
-}
 
 .init{
   background-image: url(init3.png);
@@ -462,4 +450,19 @@ body{
   font-size: 33px;
   padding-bottom: 10px;
   text-decoration: none;
+}
+
+
+
+/***
+
+MUDANÇAS NO INDEX.HTML
+
+*/
+
+
+#index-container{
+    background-image: url(back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
