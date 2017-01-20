@@ -28,30 +28,31 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid main-nav">
-      <nav class="navbar navbar-default">
-       <div class="container-fluid">
-         <div class="navbar-header">
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-         </div>
-         <div yclass="navbar-collapse collapse  ">
-           <ul class="nav navbar-nav">
-             <li><a href="index.html">Home</a></li>
-             <li><a class="a-color" href="sobre.html">A ABRASETE</a></li>
-              <li><a class="a-color" href="inscrevase.html">Inscreva-se</a></li>
-             <li><a class="a-color" href="parceiros.html">Parceiros</a></li>
-              <li><a class="a-color" href="parceiros.html">Seja parceiro</a></li>
-            <li class="active"><a href="#">Contato</a></li>
-           </ul>
-         </div>
-       </div>
-     </nav>
+    <!-- NAVBAR !!!! -->
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">ABRASETE</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="a-color" href="sobre.html">A ABRASETE</a></li>
+          <li><a class="a-color" href="inscrevase.html">Inscreva-se</a></li>
+          <li class="a-color"><a class="a-color" href="parceiros.html">Parceiros</a></li>
+           <li><a class="a-color" href="sejaparceiro.html">Seja parceiro</a></li>
+         <li class="active"><a class="a-color" href="#">Contato</a></li>
+         <li><a class="a-color" href="estatuto.html">Estatuto</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+    <!-- END OF NAVBAR ! -->
     <!-- START OF THE PAGE CONTENT-->
     <div class="container">
       <div class="row" >

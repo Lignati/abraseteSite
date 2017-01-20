@@ -35,32 +35,11 @@ body{
   padding-top: 50px;
 }
 
-.navbar{
-  background-color: rgb(20,90,50);
-  color: black;
-}
 
-.main-nav{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.dropdown-menu{
-  background-color: rgb(82, 190, 128);
-}
 
 .display-1{
   text-align: center;
   font-weight: bold;
-}
-
-
-.dropdown-menu .divider{
-  background-color: black;
-}
-
-.navbar-default .navbar-nav>li>a{
-  color: white;
 }
 
 
@@ -317,6 +296,7 @@ body{
 .about{
   background-image: url(back1.jpg);
   background-size: cover;
+  backgroun-repeat: no-repeat;
 }
 
 .join-us{
@@ -495,3 +475,109 @@ body{
 .parceiros-thumbnail{
   box-shadow: 0 10px 10px -2px grey;
 }
+
+
+/*RESPONSIVE SIDE FOR PARCEIROS*/
+
+
+@media(max-width:480px){
+  .display-1{
+    font-size:15px;
+  }
+  #sub-title{
+    font-size:12px;
+  }
+  #parceiros-title{
+    font-size:15px;
+  }
+  #parceiros-subtitle{
+    font-size: 12px;
+  }
+  .parceiros-texto{
+    font-size: 12px;
+  }
+  .parceiros-title-second-part{
+    font-size: 15px;
+  }
+  .parceiros-thumbnail{
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
+/*RESPONSIVE SIDE FOR PARCEIROS*/
+
+
+
+/*RESPONSIVE SIDE FOR INDEX*/
+
+@media(max-width:480px){
+  #missão-sub{
+    font-size: 12px;
+  }
+  #visão-sub{
+    font-size: 12px;
+  }
+  #valores-sub{
+    font-size:12px;
+  }
+  .valores-down{
+    font-size:15px;
+  }
+
+}
+
+/*RESPONSIVE SIDE FOR INDEX*/
+
+
+
+/* NEW NAVBAR ! */
+
+.navbar{
+  margin-bottom: 0px;
+  background-color:rgb(14, 63, 35);
+}
+/* NEW NAVBAR ! */
+
+
+/*RESPONSIVE SIDE FOR SOBRE*/
+
+@media(max-width:480px){
+  .main-title-about{
+    font-size: 25px;
+  }
+  .main-title-about-sub{
+    font-size: 12px;
+    display: block;
+    text-align: left:
+  }
+  .main-title-about-02{
+    font-size: 25px;
+  }
+}
+
+/*RESPONSIVE SIDE FOR SOBRE*/
+
+
+
+/*RESPONSIVE SIDE FOR SEJAPARCEIRO*/
+
+
+@media(max-width:480px){
+  .main-title-join-us{
+    font-size: 12px;
+  }
+}
+/*RESPONSIVE SIDE FOR SEJAPARCEIRO*/
+
+
+
+
+
+
+/* ESTATUTO */
+.estatuto-sub{
+  color: black;
+  font-size: 23px;
+  text-align: center;
+}
+/*ESTATUTO*/

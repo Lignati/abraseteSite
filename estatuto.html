@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>ABRASETE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/changes.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
-  <body>
+  <body class="about">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <div class="row">
@@ -24,42 +25,38 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid main-nav">
-      <nav class="navbar navbar-default">
-       <div class="container-fluid">
-         <div class="navbar-header">
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-         </div>
-         <div yclass="navbar-collapse collapse">
-           <ul class="nav navbar-nav">
-             <li class="a-color"><a href="index.html">Home</a></li>
-             <li class="a-color"><a class="a-color" href="sobre.html">A ABRASETE</a></li>
-            <li class="a-color" ><a href="inscrevase.html">Inscreva-se</a></li>
-             <li class="active" ><a href="#">Estatuto</a></li>
-             <li><a class="a-color" href="parceiros.html">Parceiros</a></li>
-              <li><a class="a-color" href="sejaparceiro.html">Seja parceiro</a></li>
-            <li><a class="a-color" href="contato.php">Contato</a></li>
-           </ul>
-         </div>
-       </div>
-     </nav>
+    <!-- NAVBAR !!!! -->
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">ABRASETE</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="a-color" href="sobre.html">A ABRASETE</a></li>
+          <li><a class="a-color" href="inscrevase.html">Inscreva-se</a></li>
+          <li class="a-color"><a class="a-color" href="parceiros.html">Parceiros</a></li>
+           <li><a class="a-color" href="sejaparceiro.html">Seja parceiro</a></li>
+         <li><a class="a-color" href="contato.php">Contato</a></li>
+         <li class="active"><a class="a-color" href="#">Estatuto</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="about container-fluid">
+  </nav>
+    <!-- END OF NAVBAR ! -->
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 col-lg-offset-4">
+        <div class="col-lg-2 col-lg-offset-5">
           <h1 class="main-title-about">Estatuto</h1>
+          <p class="estatuto-sub"><br/><br/><a href="estatutoABRASETE.docx">Baixar o Documento</a><br/><br/></p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-5">
-          <p class="main-title-about-sub"><br/><br/><a href="estatutoABRASETE.docx">Baixar o Documento</a><br/><br/></p>
-        </div>
       </div>
-    </div>
   </body>
 </html>
