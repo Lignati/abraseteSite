@@ -474,6 +474,8 @@ body{
 
 .parceiros-thumbnail{
   box-shadow: 0 10px 10px -2px grey;
+  max-width:300PX;
+  max-height:150px;
 }
 
 
